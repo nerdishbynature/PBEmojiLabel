@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9709E5AE1694D51500C9E127 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9709E5AD1694D51500C9E127 /* README.md */; };
+		972305C71694AC65005866EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972305C61694AC65005866EF /* UIKit.framework */; };
+		972305C91694AC65005866EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972305C81694AC65005866EF /* Foundation.framework */; };
+		972305CB1694AC65005866EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972305CA1694AC65005866EF /* CoreGraphics.framework */; };
+		972305D11694AC65005866EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 972305CF1694AC65005866EF /* InfoPlist.strings */; };
+		972305D31694AC65005866EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305D21694AC65005866EF /* main.m */; };
+		972305D71694AC65005866EF /* NBNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305D61694AC65005866EF /* NBNAppDelegate.m */; };
+		972305D91694AC65005866EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 972305D81694AC65005866EF /* Default.png */; };
+		972305DB1694AC65005866EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 972305DA1694AC65005866EF /* Default@2x.png */; };
+		972305DD1694AC65005866EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 972305DC1694AC65005866EF /* Default-568h@2x.png */; };
+		972305E01694AC65005866EF /* NBNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305DF1694AC65005866EF /* NBNViewController.m */; };
+		972305E31694AC65005866EF /* NBNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972305E11694AC65005866EF /* NBNViewController.xib */; };
+		972305EB1694AC95005866EF /* PBEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305EA1694AC95005866EF /* PBEmojiLabel.m */; };
+		972305ED1694AD52005866EF /* EmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 972305EC1694AD51005866EF /* EmojiList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9709E5AD1694D51500C9E127 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		972305C21694AC65005866EF /* PBEmojiLabelParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBEmojiLabelParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972305C61694AC65005866EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		972305C81694AC65005866EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		972305CA1694AC65005866EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		972305CE1694AC65005866EF /* PBEmojiLabelParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBEmojiLabelParser-Info.plist"; sourceTree = "<group>"; };
+		972305D01694AC65005866EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		972305D21694AC65005866EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		972305D41694AC65005866EF /* PBEmojiLabelParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBEmojiLabelParser-Prefix.pch"; sourceTree = "<group>"; };
+		972305D51694AC65005866EF /* NBNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNAppDelegate.h; sourceTree = "<group>"; };
+		972305D61694AC65005866EF /* NBNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNAppDelegate.m; sourceTree = "<group>"; };
+		972305D81694AC65005866EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		972305DA1694AC65005866EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		972305DC1694AC65005866EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		972305DE1694AC65005866EF /* NBNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNViewController.h; sourceTree = "<group>"; };
+		972305DF1694AC65005866EF /* NBNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNViewController.m; sourceTree = "<group>"; };
+		972305E21694AC65005866EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NBNViewController.xib; sourceTree = "<group>"; };
+		972305E91694AC95005866EF /* PBEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEmojiLabel.h; sourceTree = "<group>"; };
+		972305EA1694AC95005866EF /* PBEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEmojiLabel.m; sourceTree = "<group>"; };
+		972305EC1694AD51005866EF /* EmojiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972305BF1694AC65005866EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972305C71694AC65005866EF /* UIKit.framework in Frameworks */,
+				972305C91694AC65005866EF /* Foundation.framework in Frameworks */,
+				972305CB1694AC65005866EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972305B71694AC65005866EF = {
+			isa = PBXGroup;
+			children = (
+				972305CC1694AC65005866EF /* PBEmojiLabelParser */,
+				972305C51694AC65005866EF /* Frameworks */,
+				972305C31694AC65005866EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972305C31694AC65005866EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972305C21694AC65005866EF /* PBEmojiLabelParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972305C51694AC65005866EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				972305C61694AC65005866EF /* UIKit.framework */,
+				972305C81694AC65005866EF /* Foundation.framework */,
+				972305CA1694AC65005866EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		972305CC1694AC65005866EF /* PBEmojiLabelParser */ = {
+			isa = PBXGroup;
+			children = (
+				972305D51694AC65005866EF /* NBNAppDelegate.h */,
+				972305D61694AC65005866EF /* NBNAppDelegate.m */,
+				972305DE1694AC65005866EF /* NBNViewController.h */,
+				972305DF1694AC65005866EF /* NBNViewController.m */,
+				972305E11694AC65005866EF /* NBNViewController.xib */,
+				972305E91694AC95005866EF /* PBEmojiLabel.h */,
+				972305EA1694AC95005866EF /* PBEmojiLabel.m */,
+				972305EC1694AD51005866EF /* EmojiList.plist */,
+				9709E5AD1694D51500C9E127 /* README.md */,
+				972305CD1694AC65005866EF /* Supporting Files */,
+			);
+			path = PBEmojiLabelParser;
+			sourceTree = "<group>";
+		};
+		972305CD1694AC65005866EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972305CE1694AC65005866EF /* PBEmojiLabelParser-Info.plist */,
+				972305CF1694AC65005866EF /* InfoPlist.strings */,
+				972305D21694AC65005866EF /* main.m */,
+				972305D41694AC65005866EF /* PBEmojiLabelParser-Prefix.pch */,
+				972305D81694AC65005866EF /* Default.png */,
+				972305DA1694AC65005866EF /* Default@2x.png */,
+				972305DC1694AC65005866EF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972305C11694AC65005866EF /* PBEmojiLabelParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972305E61694AC65005866EF /* Build configuration list for PBXNativeTarget "PBEmojiLabelParser" */;
+			buildPhases = (
+				972305BE1694AC65005866EF /* Sources */,
+				972305BF1694AC65005866EF /* Frameworks */,
+				972305C01694AC65005866EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBEmojiLabelParser;
+			productName = PBEmojiLabelParser;
+			productReference = 972305C21694AC65005866EF /* PBEmojiLabelParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972305B91694AC65005866EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NBN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = nerdishbynature;
+			};
+			buildConfigurationList = 972305BC1694AC65005866EF /* Build configuration list for PBXProject "PBEmojiLabelParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 972305B71694AC65005866EF;
+			productRefGroup = 972305C31694AC65005866EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972305C11694AC65005866EF /* PBEmojiLabelParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972305C01694AC65005866EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972305D11694AC65005866EF /* InfoPlist.strings in Resources */,
+				972305D91694AC65005866EF /* Default.png in Resources */,
+				972305DB1694AC65005866EF /* Default@2x.png in Resources */,
+				972305DD1694AC65005866EF /* Default-568h@2x.png in Resources */,
+				972305E31694AC65005866EF /* NBNViewController.xib in Resources */,
+				972305ED1694AD52005866EF /* EmojiList.plist in Resources */,
+				9709E5AE1694D51500C9E127 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972305BE1694AC65005866EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972305D31694AC65005866EF /* main.m in Sources */,
+				972305D71694AC65005866EF /* NBNAppDelegate.m in Sources */,
+				972305E01694AC65005866EF /* NBNViewController.m in Sources */,
+				972305EB1694AC95005866EF /* PBEmojiLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		972305CF1694AC65005866EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972305D01694AC65005866EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		972305E11694AC65005866EF /* NBNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972305E21694AC65005866EF /* en */,
+			);
+			name = NBNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972305E41694AC65005866EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		972305E51694AC65005866EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972305E71694AC65005866EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBEmojiLabelParser/PBEmojiLabelParser-Prefix.pch";
+				INFOPLIST_FILE = "PBEmojiLabelParser/PBEmojiLabelParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		972305E81694AC65005866EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PBEmojiLabelParser/PBEmojiLabelParser-Prefix.pch";
+				INFOPLIST_FILE = "PBEmojiLabelParser/PBEmojiLabelParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972305BC1694AC65005866EF /* Build configuration list for PBXProject "PBEmojiLabelParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972305E41694AC65005866EF /* Debug */,
+				972305E51694AC65005866EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972305E61694AC65005866EF /* Build configuration list for PBXNativeTarget "PBEmojiLabelParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972305E71694AC65005866EF /* Debug */,
+				972305E81694AC65005866EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972305B91694AC65005866EF /* Project object */;
+}
