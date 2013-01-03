@@ -1,6 +1,6 @@
 ## PBEmojiLabel
 
-This is a UILabel subclass which allows you to insert Emojis you use in Campfire, GitHub, Basecamp, Turntable.fm, Teambox, Trac and Flowdock without the need calculate where to insert some UIImages representing the Emojis.
+This is a UILabel subclass which allows you to insert Emojis you use in [Campfire](http://campfirenow.com/), [GitHub](https://github.com/), [Basecamp](http://basecamp.com/), [Turntable.fm](http://turntable.fm/), [Teambox](http://teambox.com/), [Trac](http://trac.edgewall.org/) and [Flowdock](https://www.flowdock.com/) without the need calculate where to insert some UIImages representing the Emojis.
 
 ![Screenshot](https://raw.github.com/nerdishbynature/PBEmojiLabel/master/Screenshot.png "Screenshot")
 
