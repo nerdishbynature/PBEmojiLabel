@@ -11,7 +11,7 @@
 
 @interface NBNViewController ()
 
-@property (nonatomic, strong) IBOutlet PBEmojiLabel *emojiLabel;
+@property (nonatomic, strong) IBOutlet UILabel* emojiLabel;
 
 @end
 
