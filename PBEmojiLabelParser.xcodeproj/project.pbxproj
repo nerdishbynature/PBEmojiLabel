@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6373D720169A198700184D9F /* EmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6373D71D169A198700184D9F /* EmojiList.plist */; };
+		6373D721169A198700184D9F /* PBEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373D71F169A198700184D9F /* PBEmojiLabel.m */; };
 		9709E5AE1694D51500C9E127 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9709E5AD1694D51500C9E127 /* README.md */; };
 		972305C71694AC65005866EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972305C61694AC65005866EF /* UIKit.framework */; };
 		972305C91694AC65005866EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972305C81694AC65005866EF /* Foundation.framework */; };
@@ -19,11 +21,12 @@
 		972305DD1694AC65005866EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 972305DC1694AC65005866EF /* Default-568h@2x.png */; };
 		972305E01694AC65005866EF /* NBNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305DF1694AC65005866EF /* NBNViewController.m */; };
 		972305E31694AC65005866EF /* NBNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972305E11694AC65005866EF /* NBNViewController.xib */; };
-		972305EB1694AC95005866EF /* PBEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 972305EA1694AC95005866EF /* PBEmojiLabel.m */; };
-		972305ED1694AD52005866EF /* EmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 972305EC1694AD51005866EF /* EmojiList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6373D71D169A198700184D9F /* EmojiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiList.plist; sourceTree = "<group>"; };
+		6373D71E169A198700184D9F /* PBEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEmojiLabel.h; sourceTree = "<group>"; };
+		6373D71F169A198700184D9F /* PBEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEmojiLabel.m; sourceTree = "<group>"; };
 		9709E5AD1694D51500C9E127 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		972305C21694AC65005866EF /* PBEmojiLabelParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBEmojiLabelParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972305C61694AC65005866EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -41,9 +44,6 @@
 		972305DE1694AC65005866EF /* NBNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNViewController.h; sourceTree = "<group>"; };
 		972305DF1694AC65005866EF /* NBNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNViewController.m; sourceTree = "<group>"; };
 		972305E21694AC65005866EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NBNViewController.xib; sourceTree = "<group>"; };
-		972305E91694AC95005866EF /* PBEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEmojiLabel.h; sourceTree = "<group>"; };
-		972305EA1694AC95005866EF /* PBEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEmojiLabel.m; sourceTree = "<group>"; };
-		972305EC1694AD51005866EF /* EmojiList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojiList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6373D71C169A198700184D9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6373D71D169A198700184D9F /* EmojiList.plist */,
+				6373D71E169A198700184D9F /* PBEmojiLabel.h */,
+				6373D71F169A198700184D9F /* PBEmojiLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		972305B71694AC65005866EF = {
 			isa = PBXGroup;
 			children = (
+				6373D71C169A198700184D9F /* Classes */,
 				972305CC1694AC65005866EF /* PBEmojiLabelParser */,
 				972305C51694AC65005866EF /* Frameworks */,
 				972305C31694AC65005866EF /* Products */,
@@ -95,9 +106,6 @@
 				972305DE1694AC65005866EF /* NBNViewController.h */,
 				972305DF1694AC65005866EF /* NBNViewController.m */,
 				972305E11694AC65005866EF /* NBNViewController.xib */,
-				972305E91694AC95005866EF /* PBEmojiLabel.h */,
-				972305EA1694AC95005866EF /* PBEmojiLabel.m */,
-				972305EC1694AD51005866EF /* EmojiList.plist */,
 				9709E5AD1694D51500C9E127 /* README.md */,
 				972305CD1694AC65005866EF /* Supporting Files */,
 			);
@@ -175,8 +183,8 @@
 				972305DB1694AC65005866EF /* Default@2x.png in Resources */,
 				972305DD1694AC65005866EF /* Default-568h@2x.png in Resources */,
 				972305E31694AC65005866EF /* NBNViewController.xib in Resources */,
-				972305ED1694AD52005866EF /* EmojiList.plist in Resources */,
 				9709E5AE1694D51500C9E127 /* README.md in Resources */,
+				6373D720169A198700184D9F /* EmojiList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +198,7 @@
 				972305D31694AC65005866EF /* main.m in Sources */,
 				972305D71694AC65005866EF /* NBNAppDelegate.m in Sources */,
 				972305E01694AC65005866EF /* NBNViewController.m in Sources */,
-				972305EB1694AC95005866EF /* PBEmojiLabel.m in Sources */,
+				6373D721169A198700184D9F /* PBEmojiLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
