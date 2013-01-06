@@ -8,7 +8,7 @@
 
 #import "PBEmojiLabel.h"
 
-@implementation PBEmojiLabel
+@implementation UILabel (PBEmojiLabel)
 
 -(void)setEmojiText:(NSString *)emojiString{
     NSString *path = [[NSBundle mainBundle] bundlePath];

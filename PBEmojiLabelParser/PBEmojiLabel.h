@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PBEmojiLabel : UILabel
+@interface UILabel (PBEmojiLabel)
 
 -(void)setEmojiText:(NSString *)emojiString;
 
