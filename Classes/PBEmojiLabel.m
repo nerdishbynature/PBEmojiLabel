@@ -8,18 +8,18 @@
 
 #import "PBEmojiLabel.h"
 
-@implementation PBEmojiLabel
+@implementation UILabel (PBEmojiLabel)
 
 -(void)setEmojiText:(NSString *)emojiString{
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSString *finalPath = [path stringByAppendingPathComponent:@"EmojiList.plist"];
-    
+
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:finalPath];
-    
+
     for (NSString *key in dict.allKeys)
         emojiString = [emojiString stringByReplacingOccurrencesOfString:key
-                                                           withString:[dict objectForKey:key]];
-    
+															 withString:[dict objectForKey:key]];
+
     self.text = emojiString;
 }
 
